@@ -5,7 +5,7 @@ import Foundation
 class FantasticView: UIView {
     
      var colorCounter = 0
-    let colors : UIColor = [red, .orange, .yellow, .green, .blue, .purple].cgColor
+    let colors = [UIColor.red, UIColor.orange, UIColor.yellow, UIColor.green, UIColor.blue, UIColor.purple, UIColor.systemPink, UIColor.systemTeal, UIColor.brown, UIColor.black, UIColor.white]
     
     override init(frame: CGRect) {
         super.init(frame:frame)
